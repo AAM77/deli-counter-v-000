@@ -14,7 +14,7 @@ def line(array)
 end ## method line
 
 
-
+1. Andy, 2. Adeel, 3. Julian, 4. Lauren, 5. Amanda, 6. Ken
 
 def take_a_number(array, name)
   array.push(name)
