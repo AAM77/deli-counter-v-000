@@ -1,3 +1,5 @@
+aaray = ['a', 'b', 'c']
+
 def line(array)
   line_order = [ ]
   if (array.size == 0)
@@ -13,6 +15,17 @@ def line(array)
   end
 end ## method line
 
+
+line_order = []
+
+1. Andy
+line_order = ['1. Andy']
+
+2. Adeel
+
+line_order = ['1. Andy', '2. Adeel']
+
+3. Julian 4. Lauren 5. Amanda 6. Ken
 
 def take_a_number(array, name)
   array.push(name)
