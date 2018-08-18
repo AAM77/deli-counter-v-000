@@ -7,7 +7,6 @@ def line(array)
     while count < array.size
       line_order.push("#{(count + 1).to_s}. #{array[count]}")
       count += 1
-      binding.pry
     end # while loop
 
     puts "The line is currently: #{line_order.join(" ")}"
