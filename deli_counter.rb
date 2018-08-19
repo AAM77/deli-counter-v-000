@@ -1,4 +1,8 @@
-aaray = ['a', 'b', 'c']
+array = ['a', 'b', 'c']
+
+"0 + 1. 'a'"
+
+
 
 def line(array)
   line_order = [ ]
@@ -7,7 +11,7 @@ def line(array)
   else
     count = 0
     while count < array.size
-      line_order.push("#{(count + 1).to_s}. #{array[count]}")
+      line_order << ("#{(count + 1).to_s}. #{array[count]}")
       count += 1
     end # while loop
 
