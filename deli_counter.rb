@@ -13,6 +13,11 @@ def line(array)
   end
 end ## method line
 
+katz_deli = []
+katz_deli =['Andy']
+katz_deli = ['Andy', 'Ken']
+katz_deli = ['Andy', 'Ken', 'Samantha']
+
 
 def take_a_number(array, name)
   array.push(name)
@@ -26,6 +31,7 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{array[0]}."
+    
     array.shift
   end
 end
