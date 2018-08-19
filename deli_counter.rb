@@ -1,8 +1,10 @@
 array = ['a', 'b', 'c']
 
-'1'. 
+'1. a' #===> "1. a"
 
+"2. b"
 
+line_order = ['1. a', '2. b']
 
 def line(array)
   line_order = [ ]
@@ -12,7 +14,7 @@ def line(array)
     count = 0
     while count < array.size
       line_order << ("#{(count + 1).to_s}. #{array[count]}")
-      count += 1
+      count = count + 1
     end # while loop
 
     puts "The line is currently: #{line_order.join(" ")}"
